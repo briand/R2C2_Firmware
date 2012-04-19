@@ -105,7 +105,7 @@ USE_THUMB_MODE = YES
 # - SUBMDL used for linker-script name (-T) and passed as define
 # - BOARD just passed as define (don't used '-' characters)
 MCU      = cortex-m3
-CHIP     = LPC1758
+CHIP     = LPC1769
 BOARD    = USER
 
 # *** This example only supports "FLASH_RUN" ***

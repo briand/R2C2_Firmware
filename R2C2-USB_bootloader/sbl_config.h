@@ -42,9 +42,9 @@
 */
 
 /*
- * CodeRed - changed start sector from bank 2 to bank 16 - ie 64k into flash.
+ * bxd - changed start sector from bank 2 to bank 4 - ie 16k into flash. The R2C2 bootloader takes about 14k.
  */
-#define USER_START_SECTOR 16
+#define USER_START_SECTOR 4
 #define MAX_USER_SECTOR 29
 
 /*
