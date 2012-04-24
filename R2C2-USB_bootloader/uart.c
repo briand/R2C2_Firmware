@@ -60,7 +60,7 @@ void uart_init(void)
 		* None parity
 		*/
 	UART_ConfigStructInit(&UARTConfigStruct);
-	UARTConfigStruct.Baud_rate = 9600;
+	UARTConfigStruct.Baud_rate = 115200;
 
 	// Initialize UART0 peripheral with given to corresponding parameter
 	UART_Init((LPC_UART_TypeDef *)LPC_UART0, &UARTConfigStruct);
