@@ -195,7 +195,7 @@ ASRCARM  =
 
 # Place project-specific -D (define) and/or -U options for C here.
 CDEFS =
-CDEFS += -DUARTDEBUG
+#CDEFS += -DUARTDEBUG
 # enables parameter-checking in NXP's library
 #CDEFS += -DDEBUG
 #CDEFS += -DWITH_USB_MS=1
